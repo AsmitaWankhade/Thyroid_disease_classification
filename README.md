@@ -42,7 +42,7 @@ Logistic regression, SVM, KNN, Random forest were used for testing.
 Random forest gave the highest accuracy with 93.93 percent. Randomized   search cv and cross validation was used and best parameters for the random forest were chosen which increased accuracy to 94.24 percent.
 
 #### After feature selection (x-fil dataframe)
-accuracy improved in Logistic regression, KNN, SVM and RF significantly. RF performs best with 99.65 % accuracy.
+accuracy improved in Logistic regression, KNN, SVM and RF significantly. XGBoost performs best with 99.89 % accuracy.
 
 #### Correlation based feature selection
 Choosing only variables with correlation > 0.1 with target variable - x_co dataframe. 
